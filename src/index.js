@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import HeadNav from './components-js/header'
 
 ReactDOM.render(
-  <React.StrictMode>
+  <>
+    <HeadNav/>
     <App />
-  </React.StrictMode>,
+  </>,
   document.getElementById('root')
 );
 
